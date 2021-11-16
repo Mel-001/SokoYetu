@@ -42,3 +42,17 @@ body{
     width: 50%;
     float: right;
 }
+
+.happy_img{
+    margin-top: 5%;
+    width: 50%;
+    float: right;
+    
+}
+.happy_img img{
+    margin-left: 27%;
+    width: 64%;
+    height: 76%;
+    border-radius: 8%;
+
+}
