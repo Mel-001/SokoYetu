@@ -29,3 +29,31 @@ body{
     margin-top: 20px;
 }
 /* nav_bar */
+
+/* shop */
+.dashimage{
+    border: 1px solid red;
+    background-color: white;
+    height: 40%;
+    width: 40%;
+}
+.thumbnail{
+    border: 2px solid red;
+    width: 45%;
+    display: flex;
+}
+.pricetag{
+    border: 2px solid red;
+    background-color: white;
+    width: 20%;
+}
+.vendors-card{
+    border: 2px solid red;
+    background-color: white;
+    width: 20%;
+}
+.item_description{
+    border: 2px solid red;
+    background-color: white;
+    width: 20%;
+}
