@@ -1,13 +1,14 @@
 body{
     background-color: #8FD976;
     width: 100%;
+    height: auto;
     overflow-x: hidden;
     margin: 0px;
 }
 
 .nav_bar img{
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
     display: inline;
 }
 .nav_bar{
@@ -20,4 +21,13 @@ body{
     float: right;
     padding-right: 80px;
     padding-top: 6px;
+    margin-top: 25px;
+}
+.tractor_img img{
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 36%;
+    height: 46%;
+    border-radius: 8%;
+
 }
