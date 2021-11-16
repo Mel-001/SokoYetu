@@ -31,29 +31,61 @@ body{
 /* nav_bar */
 
 /* shop */
+.shop{
+    border: 1px solid #8FD976;
+    height: min-content;
+}
 .dashimage{
     border: 1px solid red;
     background-color: white;
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
+    position: relative;
+    left: 200px;
+    top: 45px;
 }
 .thumbnail{
     border: 2px solid red;
     width: 45%;
+    height: 45%;
     display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+.callback{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    height: 80px;
+    border: 1px solid white;
+    width: 300px;
 }
 .pricetag{
     border: 2px solid red;
     background-color: white;
     width: 20%;
+    height: 250px;
+    position: relative;
+    left: 1200px;
+    top: -825px
 }
 .vendors-card{
     border: 2px solid red;
     background-color: white;
     width: 20%;
+    height: 200px;
+    position: relative;
+    left: 1200px;
+    top: -780px;
 }
 .item_description{
     border: 2px solid red;
     background-color: white;
     width: 20%;
+    height: 250px;
+    position: relative;
+    left: 1200px;
+    top: -700px;
 }
