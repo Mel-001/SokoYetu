@@ -47,6 +47,7 @@ body{
     height: 450px;
     display: block;
     margin: 50px;
+    border-radius: 15px;
 }
 .card img{
     margin-left: 50px;
