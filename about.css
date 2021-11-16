@@ -37,3 +37,8 @@ body{
     border-radius: 8%;
 
 }
+.first_about_text{
+    margin-top: 6%;
+    width: 50%;
+    float: right;
+}
