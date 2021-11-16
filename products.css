@@ -1,0 +1,31 @@
+body{
+    background-color: #8FD976;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+/* nav_bar */
+.nav_bar img{
+    height: 3em;
+    width: 3em;
+    display: inline;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nav_bar{
+    background-color: #5AC11D;
+    width: 100%;
+    margin-top: 0px;
+    height: 60px;
+}
+.nav_bar li{
+    display: inline;
+    float: right;
+    padding-right: 80px;
+    padding-top: 6px;
+    margin-top: 20px;
+}
+/* nav_bar */
+
+/* products */
