@@ -29,15 +29,24 @@ body{
 /* nav_bar */
 
 /* products */
+.products{
+    border: 1px solid black;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+}
 .row_1{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    position: relative;
+    margin-top: 10px;
+    justify-content: center;
 }
 .card{
     background-color: white;
     width: 35%;
     height: 450px;
+    display: block;
+    margin: 50px;
 }
 .card img{
     margin-left: 50px;
