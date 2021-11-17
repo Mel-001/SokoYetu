@@ -33,7 +33,7 @@
 /* shop */
 .shop{
     border: 1px solid #8FD976;
-    height: 800px;
+    height: 880px;
     background-color: #8FD976;
     
 }
@@ -98,6 +98,25 @@
     position: relative;
     left: 1200px;
     top: -550px;
+}
+.action-buttons{
+    border: 1px solid red;
+    width: 20%;
+    position: relative;
+    left: 1200px;
+    top: -535px;
+    border-radius: 10px;
+}
+.action-buttons li{
+    display: inline;
+    padding: 3px;
+}
+.action-buttons button{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 70px;
 }
 .item_description{
     text-align: center;
