@@ -32,8 +32,58 @@ body{
 .our-products{
     border: 2px solid red;
     height: 900px;
+    background-image: url(images/farm.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
+#header-text{
+    color: white;
+    position: relative;
+    left: 700px;
+    top: 50px;
+    font-size: 50px;
+    font-weight: 50px;
+}
+.row{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+#uprow{
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+    top: -80px;
+    justify-items: left;
+}
+.category-card{
+    border: 2px solid white;
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+}
+.category-card button{
+    position: relative;
+    top: 35px;
+    height: 50px;
+    width: 100px;
+}
+.category-card-2{
+    border: 2px solid white;
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    margin: 60px;
+}
+.category-card-2 button{
+    position: relative;
+    top: 35px;
+    height: 50px;
+    width: 100px;
+}
 /* our products */
 
 /* footer */
