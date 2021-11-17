@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+/* nav_bar */
+.navbar img{
+    height: 2em;
+    width: 2em;
+    display: inline;
+}
+.navbar{
+    background-color: #5AC11D;
+    width: 100%;
+    height: 50px;
+}
+.navbar li{
+    display: inline;
+    float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.navbar a{
+    text-decoration: none;
+}
+/* nav_bar */
+
+/* products */
+.products{
+    border: 1px solid black;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+    background-color: #8FD976;
+}
+.row_1{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    justify-content: center;
+}
+.card{
+    background-color: white;
+    width: 35%;
+    height: 450px;
+    display: block;
+    margin: 50px;
+    border-radius: 15px;
+}
+.card img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.item_description{
+    float: right;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.pricetag{
+    margin-left: 50px;
+}
+#shop{
+    float: right;
+    margin-right: 100px;
+    margin-top: -70px;
+    height: 50px;
+    width: 150px;
+    background-color: #5AC11D;
+    border: 1px solid #5AC11D;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+button a:hover{
+    color: blue;
+}
+/* footer */
+footer{
+    width: 100%;
+    height:20px;
+    margin-top: -19px;
+}
+footer h5{
+    text-align: center;
+}
+footer p{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
