@@ -103,13 +103,14 @@
     border: 1px solid red;
     width: 20%;
     position: relative;
-    left: 1200px;
+    left: 1000px;
     top: -535px;
     border-radius: 10px;
 }
 .action-buttons li{
     display: inline;
     padding: 3px;
+    
 }
 .action-buttons button{
     color: black;
