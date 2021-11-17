@@ -57,7 +57,7 @@ body{
 }
 .item_description{
     float: right;
-    margin-right: 150px;
+    margin-right: 90px;
     margin-top: 50px;
 }
 .pricetag{
@@ -71,6 +71,15 @@ body{
     width: 150px;
     background-color: #5AC11D;
     border: 1px solid #5AC11D;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+button a:hover{
+    color: blue;
 }
 /* footer */
 footer{
