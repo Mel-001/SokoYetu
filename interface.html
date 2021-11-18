@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,75 @@
     <title>Farmer Interface</title>
     <link rel="stylesheet" href="interface.css">
 </head>
+
 <body>
-    
+    <div class="nav_bar">
+        <img src="images/soko.png" alt="logo"> <span>SokoYetu</span>
+        <li class="active"><a href="#"><select name="" id="">
+                    <option value="">Log Out</option>
+                    <option value="">View Profile</option>
+                    <option value="">Gallery</option>
+                    <option value="">Inventory Items</option>
+                    <option value="">Earning Reports</option>
+                </select></a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
+    </div>
+    <div class="holder">
+        <div class="picture">
+            <img src="images/beans.jpg" alt="" ></div>
+            <div class="form">>
+            <h2> <span class="rule">Please Fill This Form</span></h2>
+            <div style="width:300px;height:300px;border:1px solid rgb(26, 23, 23);background-color: white;border-radius: 10px;"
+                class="profile_pic">
+                <input type="text" placeholder="Please upload an image of your product here">
+                Please upload an image of your product here
+            </div>
+            <form name="myform" method="post" onsubmit="return validateForm()">
+                <label for="vname">Vendor name:</label>
+                <input type="text" id="vname" name="vname" value="" required placeholder="example:John Doe"><br>
+                <label for="pname">Type of Product:</label>
+                <input type="text" id="pname" name="pname" value="" required placeholder="example:Beef"><br>
+                <label for="aname">Amount:</label>
+                <input type="number" id="aname" name="aname" value="" required placeholder="example:90kg"><br>
+                <label for="dname">Date:</label>
+                <input type="date" id="dname" name="dname" value="" required><br>
+                <label for="lname">Location:</label>
+                <input type="text" id="lname" name="lname" value="" required placeholder="example:Nyeri"><br>
+                <label for="desname">Describe your product:</label>
+                <input type="text" id="desname" name="desname" value="" required placeholder="example: mangoes to ripen in a month's time">
+                <input type="submit" value="Submit" class="sbutt">
+            </form>
+
+
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <span id="copy"> &copy; 2021 SokoYetu. All Rights Reserved . Privacy Policy.
+            <span id="design"> Designed by: Farmer’s Digi</span>
+    </div>
+    <script type="text/javascript">
+        function validateForm() {
+            var fname = document.forms["myform"]["vname"].value;
+            
+
+            if (fname =="") {
+                alert("enter your name");
+                return false;
+
+            }
+            
+            else if(fname!=="") {
+                alert("details submitted");
+                return false;
+            }
+
+        }
+    </script>
 </body>
+
 </html>
