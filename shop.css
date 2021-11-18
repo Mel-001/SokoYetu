@@ -120,6 +120,7 @@
     width: 100px;
     font-size: large;
     border-radius: 10px;
+    text-decoration: none;
 }
 .action-buttons button:hover{
     color: #8FD976;
