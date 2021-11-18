@@ -69,6 +69,10 @@ body{
     top: 35px;
     height: 50px;
     width: 100px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .category-card-2{
     border: 2px solid white;
@@ -83,6 +87,10 @@ body{
     top: 35px;
     height: 50px;
     width: 100px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bolder;
 }
 /* our products */
 
