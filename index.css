@@ -1,0 +1,341 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway",sans-serif;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+
+.navigation{
+    
+    background-image: url("images/perishable\ .jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: -19px;
+}
+.navbar img{
+    height: 2em;
+    width: 2em;
+    display: inline;
+}
+.navbar{
+    background-color: #5AC11D;
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+}
+.navbar li{
+    display: inline;
+    float: right;
+    padding-right: 80px;
+    padding-top: 6px;
+    
+}
+
+
+
+.popup{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    width: 380px;
+    padding: 20px 30px;
+    background-color: #fff; 
+    box-shadow: 2px 3px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms,
+}
+.popup.active{
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); 
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms,
+}
+.popup .close_btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.popup .form h2{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+
+}
+.popup .form .form_elements{
+
+    margin: 15px 0px;
+
+}
+.popup .form .form_elements label{
+    font-size: 14px;
+    color: #222;
+}
+.popup .form .form_elements input[type="text"], 
+.popup .form .form_elements input[type="password"],
+.popup .form .form_elements input[type="number"]{
+margin-top: 5px;
+display: block;
+width: 100%;
+padding: 10px;
+outline: none;
+border: 1px solid #aaa;
+border-radius: 5px;
+ 
+}
+.popup .form .form_elements input[type="checkbox"]{
+  margin-right: 5px;
+
+}
+.popup .form .form_elements button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: #f5f5ff;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #222;
+}
+.popup .form .form_elements a{
+    display: block;
+    font-size: 15px;
+    text-align: right;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+#login{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    background-color: #5AC11D;
+    font-size: large;
+    cursor: pointer;  
+}
+#show_login{
+float: right;
+margin: 5px;
+border: none;
+outline: none;
+background-color: #5AC11D;
+font-size: large;
+cursor: pointer;
+}
+.welcome{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    
+}
+.welcome_txt{
+    
+   margin-top: 20%;
+   margin-bottom: 10%;
+ color: white;
+    font-size: 25px;
+   
+}
+.more_txt{
+
+    margin-top: 10%;
+    float: right;
+
+height: auto;
+color: white;
+font-size: 24px;
+}
+
+.about-us{
+    width: 100%;
+    height: auto;
+    background-color: #8fd975;
+}
+.about_txt{
+    text-align: center;
+}
+.adverts{
+    display: flex;
+justify-content: space-evenly;
+
+}
+.about-us .adverts .farmers, .consumers{
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 30px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: -2px 3px grey;
+}
+.about-us .adverts .consumers button{
+    width: 70px;
+    margin-left: 80px;
+    border: none;
+    background-color: #8fd975;
+   margin-top: 30%;
+   cursor: pointer;
+    border-radius: 10px 10px;
+
+}
+
+.about-us .adverts .farmers button{
+    width: 70px;
+    margin-left: 80px;
+    border: none;
+    background-color: #8fd975;
+   margin-top: 30%;
+   cursor: pointer;
+    border-radius: 10px 10px;
+
+}
+.find-products{
+    background-image: url("images/farm.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.find-products h3{
+    text-align: center;
+    color: white;
+}
+.find-products .four{
+    margin-top: 4%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px white;
+
+}
+.groceries, .cereals, .fruits, .beef{
+    background-color: white;
+    box-shadow:-5px 5px 5px rgb(141, 139, 139) ;
+    height: auto;
+}
+.groceries, .beef{
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+.fruits, .cereals{
+    margin-bottom: 100px;
+
+}
+.find-products .four #btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.contact_info{
+    height: auto;
+    width: 100%;
+    background-color: #8fd975;
+ text-align: center;
+}
+.contact_info .contact_details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.contact_info .contact_form{
+    background-color: white;
+    margin-left: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.contact_info .contact_form input{
+    background-color: #8fd975;
+     margin: 30px;
+     width: 300px;
+
+}
+.contact_info .contact_form button{
+    width: 70px;
+    margin-left: 100px;
+    border: none;
+    background-color: #8fd975;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+}
+.contact_info .contact_form #email{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px 10px;
+}
+
+.contact_info .contact_form #message{
+    height: 80px;
+    border-radius: 10px 10px;
+}
+
+.subscribe{
+height: auto;
+
+}
+.subscribe form{
+    background-color: white;
+   padding: 50px;
+   height: 200px;
+}
+.subscribe form input{
+    background-color: #8fd975;
+    height: 50px;
+    border-radius: 10px 10px;
+}
+.subscribe form button{
+    width: 70px;
+    margin-left: 100px;
+    border: none;
+    background-color: #8fd975;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+}
+footer{
+    height: 40px;
+}
+footer h5{
+   margin-left: 20%;
+    display: inline;
+}
+footer span{
+    float: right;
+}
