@@ -9,6 +9,7 @@ This is a website to faclitate the supply chain between final consumers and farm
 ## Requirements
 * Either a phone, laptop, desktop or tablet.
 * An access to internet.
+* https://github.com/Mel-001/SokoYetu.git
 
 # Technologies Used
 * HTML to structure
