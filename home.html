@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <div class="navbar">
+            <img src="images/soko.png" alt="" height="50px">
+            <span>SokoYetu</span>
+            <button id="show_login">register</button>
+            <button id="login">login</button>
+            <li> <a href="">Contact</a></li>
+            <li> <a href="">About</a></li>
+            <li> <a href="">Home</a></li>
+
+        </div>
+
+        <div class="popup">
+            <div class="close_btn"> &times;</div>
+            <div class="form">
+                <form action="" name="myForm" method="post" onsubmit="return validate()">
+                    <h2>register</h2>
+                    <div class="form_elements">
+                        <label>User Name</label><input type="text" name="uName" placeholder="name as per your id"
+                            maxlength="30">
+                    </div>
+                    <div class="form_elements">
+                        <label>Email</label><input type="text" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form_elements">
+                        <label>password</label><input type="password" name="password">
+                    </div>
+                    <div class="form_elements">
+                        <label>Confirm Pasword</label><input type="password" name="passwordc">
+                    </div>
+                    <div class="form_elements">
+                        <label>Contact</label><input type="tel" name="contact">
+                    </div>
+                    <div class="form_elements">
+                        <input type="checkbox" id="remember_me" name=" remember_me">
+                        <label for="remember_me">remember password</label>
+                    </div>
+                    <div class="form_elements">
+                        <button type="submit">submit</button>
+                    </div>
+                    <div class="form_elements">
+                        <a href="#">forgot password</a>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        
+            <div class="welcome">
+                <div class="welcome_txt">
+
+                    <h1>Welcome to soko yetu</h1>
+                    <p>We are here to connect farmers and consumers</p><br><br>
+
+                </div>
+
+                <div class="more_txt">
+
+                    <p>Soko yetu is kenyans' number one original <br>farm shop</p><br>
+                    <p>We provide an e-Commerce platform to <br>
+                        enable farmers and consumers trade <br>
+                        conveniently</p><br>
+                    <p>Connect, explore and shop at the comform of your home </p>
+                </div>
+            </div>
+        </div>
+        <div class="about-us">
+            <div class="about_txt">
+                <h3>About us</h3>
+                <p>Derived from swahili words Soko and Yetu which translates to our market <br>
+                    we aim at creating a closed ecosystem for the kenyan food market , add value to farmers <br>
+                    products and improve of access to food and grocery across cities in kenya</p>
+
+                <h3>Mission Statement</h3>
+                <p>Soko Yetu is commited to imrove lives by providing local communities with a vibrant online market for
+                    food and glocery products</p>
+            </div>
+
+            <div class="adverts">
+
+                <div class="farmers">
+                    <h5>Farmers</h5>
+                    <p>Get your best product online</p>
+                    <p>Update your catalogue and watch us <br>
+                        sale for you at the comfort of you <br>phone</p>
+                    <p>we pick from your farm to our <br>
+                        waherhouse for storage and <br> packaging. We also disburse your <br>
+                        earnings directly to your bank
+                        account </p>
+                    <button>Sell</button>
+
+                </div>
+
+                <div class="consumers">
+                    <h5>Consumers</h5>
+                    <p>We are here for you</p>
+                    <p>Update your glocery list and let us <br>
+                        do the work for you</p>
+                    <p>Cut the hustle of finding <br>
+                        measuring and carrying luggage.</p>
+                    <p>We deliver to your door step. <br>
+                        Amaizing! <br>
+                        Sign up!</p>
+                    <button>Buy</button>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="find-products">
+        <div id="title">
+            <h3>Find Our Products</h3>
+        </div>
+
+        <div class="four">
+            <div class="groceries">
+                <h5>Groceries and Vegetables</h5>
+                <img src="images/perishable4.jpg" alt="" height="170px">
+                <button id="btn"> Explore</button>
+
+            </div>
+            <div class="fruits">
+                <h5>Fruits and Vegetables</h5>
+                <img src="images/perishable6.jpeg" alt="" height="170px">
+                <button id="btn"> Explore</button>
+            </div>
+            <div class="cereals">
+                <h5>Cereals and Legumes</h5>
+                <img src="images/cereals and legumes-sieva.jpg" alt="" height="170px">
+                <button id="btn"> Explore</button>
+            </div>
+            <div class="beef">
+                <h5>Meat and other animal <br> products</h5>
+                <img src="images/beef-meat.jpg" alt="" height="170px">
+                <button id="btn"> Explore</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="contact_info">
+        <div class="contact_us">
+            <h3>Contact Us</h3><br><br>
+            <p>Get in Touch With Us <br>
+                We are glad to hear from you</p>
+        </div>
+
+        <div class="contact_details">
+            <div class="contact_text">
+                <p>Here is the easiest way to reach us. <br>
+                    Write a message and we will get back</p><br><br>
+                <h5>Address:</h5><br>
+                <p>Gateway Park, Mombasa Road, <br>
+                    Nairobi, Kenya.</p>
+                <h5>Phone:</h5><br>
+                <p>+25412289027</p><br>
+                <h5>Email:</h5><br>
+                <p>sokoyetu@gmail.com</p>
+            </div>
+
+            <div class="contact_form">
+                <form action=" " method="POST">
+                    <input type="email" id="email" name="Email" placeholder="example@gmail.com" required><br>
+                    <input type="text" id="message" name="Message" placeholder="Type your message here" required><br>
+                    <button id="submit" " type=" submit"> Submit</button>
+                </form>
+            </div>
+            <div class="subscribe">
+
+                <form action="" method="POST">
+                    <h5>Follow us to stay updated <br>
+                        Subscribe to our newsletter
+                    </h5><br><br>
+                    <input type="text" id="email" name="email" placeholder="email@gmail.com" required>
+                    <button id="submit" type="submit"> Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <footer>
+        <h5>&#169 2021 SokoYetu. All Rights Reserved. Privacy Policy </h5>
+        <span> Designed by farmer's Digi</span>
+    </footer>
+
+
+</body>
+
+<script type="text/javascript" src="home.js"></script>
+<script src="login.js"></script>
+
+</html>
