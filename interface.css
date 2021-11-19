@@ -94,9 +94,10 @@ background: rgba(69, 192, 26, 0.6);
     
     float: left;
     
-background: url(.jpg);
+background: url(images/beans.jpg);
 filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
 border-radius: 6px;
+overflow-x: hidden;
 /* beans 1 */
 
 position: absolute;
