@@ -28,6 +28,9 @@
 .navbar a{
     text-decoration: none;
 }
+.navbar li a{
+    text-decoration: none;
+}
 /* nav_bar */
 
 /* shop */
