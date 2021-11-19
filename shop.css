@@ -1,0 +1,156 @@
+ body{
+    
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+/* nav_bar */
+.navbar img{
+    height: 2em;
+    width: 2em;
+    display: inline;
+}
+.navbar{
+    background-color: #5AC11D;
+    width: 100%;
+    height: 50px;
+}
+.navbar li{
+    display: inline;
+    float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+}
+/* nav_bar */
+
+/* shop */
+.shop{
+    border: 1px solid #8FD976;
+    height: 880px;
+    background-color: #8FD976;
+    
+}
+.dashimage{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: 200px;
+    top: 45px;
+}
+.thumbnail{
+    border: 1px solid #8FD976;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+.callback{
+    position: relative;
+    top: 80px;
+    left: 200px;
+    height: 80px;
+    border: 1px solid white;
+    width: 300px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: white;
+}
+
+.callback a{
+    text-decoration: none;
+    color: black;
+}
+.callback :hover{
+    color: #8FD976;
+
+
+}
+.pricetag{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    height: 150px;
+    position: relative;
+    left: 1200px;
+    top: -573px;
+}
+.vendors-card{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    height: 120px;
+    position: relative;
+    left: 1200px;
+    top: -550px;
+}
+.action-buttons{
+    border: 1px solid #8FD976;
+    width: 30%;
+    position: relative;
+    left: 1120px;
+    top: -535px;
+    border-radius: 10px;
+}
+.action-buttons li{
+    display: inline;
+    padding: 3px;
+    
+}
+.action-buttons button{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.action-buttons button:hover{
+    color: #8FD976;
+}
+.item_description{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    position: relative;
+    left: 1200px;
+    top: -500px;
+}
+
+/* shop */
+
+/* footer */
+
+footer{
+    width: 100%;
+    height:20px;
+    margin-top: -19px;
+}
+footer h5{
+    text-align: center;
+}
+footer p{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+}
