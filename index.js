@@ -33,13 +33,13 @@ if(email == ""){
    return false; 
    
 }
-
-//var at = indexOf("@");
-//var dot = lastIndexOf(".");
-//if(at<1||dot<at+2||dot+2  >= email.length ){
-  // alert("invalid email");
-   //return false; 
-//}
+          var at=email.indexOf("@");
+            var dot=email.lastIndexOf(".");
+            if(at<1||dot<at+2||dot+2 >=email.length)
+            {
+                alert("Not a valid email");
+                return false;
+            }
 
   //validates password
   if(password == ""){
@@ -58,8 +58,8 @@ if(email == ""){
     
  }
 
- if(passwordc == !passwordc){
-    alert("enter paasword don't match");
+ if(password !== passwordc){
+    alert("pasword don't match");
     return false; 
     
  }
@@ -69,7 +69,7 @@ if(email == ""){
     return false; 
     
  }
- if(contact == isNaN){
+ if(isNaN(contact)){
     alert("your contacts should be a number");
     return false; 
     
@@ -78,6 +78,11 @@ if(email == ""){
     alert(" your contacts should be complete");
     return false; 
     
+}
+else{
+   alert("registration successful");
+   return true;
+   
 }
 
 }
