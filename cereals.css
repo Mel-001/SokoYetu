@@ -1,3 +1,13 @@
+/* media querries */
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+    .row_1{
+        width: 100%;
+    }
+}
+/* media querries */
 body{
 
     width: 100%;
@@ -53,13 +63,13 @@ body{
     border-radius: 15px;
 }
 .card img{
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 7%;
+    margin-top: 7%;
 }
 .item_description{
     float: right;
     margin-right: 90px;
-    margin-top: 50px;
+    margin-top: 7%;
 }
 .pricetag{
     margin-left: 50px;
